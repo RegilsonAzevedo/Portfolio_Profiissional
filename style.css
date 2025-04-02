@@ -1,7 +1,7 @@
 :root{
-    --cor-header-inicial: #76c6c9;
-    --cor-header-final:#789497;
-    --cor-fundo-body: rgb(252, 253, 253);
+    --cor-header-inicial: #193581;
+    --cor-header-final:#3b4d4d;
+    --cor-fundo-body: rgb(28, 32, 32);
     --cor-fundo-footer:rgb(76, 122, 95);
     
 }
@@ -11,7 +11,8 @@ body{
     background-color: var(--cor-fundo-body);
     font-family: Georgia, 'Times New Roman', Times, serif;
     
-
+    
+}
 main{ 
     max-width: 80vw;
     margin: auto;
@@ -21,8 +22,10 @@ main > img{
     display: block;
     max-width: 100%;
     border-radius: 10px;
-    height: 250px;
+    height: 400px;
     margin: auto;
+    float: right;
+
 }
 header{
     display: flex;
@@ -32,13 +35,14 @@ header{
     color: rgb(248, 255, 255);
     padding: 15px;
     padding-bottom: 5px;
-    text-align: center;
+    text-align: center; 
+    height: 150px;
     
 }
 
-header > p {
+header > h2 {
     margin: 5px;
-    color: azure;
+    color: rgb(230, 237, 238);
 
     
 }
@@ -49,15 +53,28 @@ nav {
     flex-direction: column;
     align-items: flex-start;
 }
-h2{
-    color:rgb(60, 80, 67);
+main > h2{
+    color:rgb(219, 214, 230);
     text-align: center;
 }
 nav > a {
     text-decoration: none;
-    color: #556061;
+    color: #0d0d0e;
     margin-right: 10px;
+    text-align: center;
 
+}
+main > p {
+    color: white;
+    text-align: left;
+    background-color: rgb(194, 173, 58);
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px; 
+    
+    
+    
+    
 }
 nav >a :hover{
     transition: all;
