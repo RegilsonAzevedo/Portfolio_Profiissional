@@ -9,24 +9,9 @@ body{
     padding: 0;
     margin: 0;
     background-color: var(--cor-fundo-body);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
-}
-main{ 
-    max-width: 80vw;
-    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;     
 }
 
-main > img{
-    display: block;
-    max-width: 100%;
-    border-radius: 10px;
-    height: 400px;
-    margin: auto;
-    float: right;
-
-}
 header{
     display: flex;
     align-items: center;
@@ -36,16 +21,14 @@ header{
     padding: 15px;
     padding-bottom: 5px;
     text-align: center; 
-    height: 150px;
-    
+    height: 150px;    
 }
 
 header > h2 {
     margin: 5px;
     color: rgb(230, 237, 238);
-
-    
 }
+
 nav {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -53,29 +36,47 @@ nav {
     flex-direction: column;
     align-items: flex-start;
 }
-main > h2{
-    color:rgb(219, 214, 230);
-    text-align: center;
-}
+
 nav > a {
     text-decoration: none;
     color: #0d0d0e;
     margin-right: 10px;
-    text-align: center;
-
+    text-align: center;     
 }
-main > p {
+
+nav >a :hover{
+    transition: all;
+}
+
+main > h2{
+    color:rgb(219, 214, 230);
+    text-align: center;
+}
+
+main{ 
+    max-width: 80vw;
+    margin: auto;
+    border: 1px solid red;
+}
+
+main > section {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+}
+
+main > section >img{
+    margin-left: 50px;
+    max-width: 80%;
+    border-radius: 10px;
+    height: 400px;
+}
+main > section > p {
     color: white;
-    text-align: left;
+    text-align: justify;
     background-color: rgb(194, 173, 58);
     padding: 15px;
     width: 400px;
-    border-radius: 10px; 
-    
-    
-    
-    
-}
-nav >a :hover{
-    transition: all;
+    border-radius: 10px;   
 }
