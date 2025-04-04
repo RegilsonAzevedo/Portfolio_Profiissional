@@ -76,37 +76,53 @@ main > h2{
 }
 
 main{ 
-    max-width: 100%;
-    margin: 200px;
-    background-color: rgb(89, 151, 122);
+    max-width: 300%;
+    margin: 0px;
+    background-color: rgb(147, 172, 187);
     /* background-image: linear-gradient(to right, rgb(56, 35, 133), white); */
-    height: 500px;
-    width: 380px;
+    height: 600px;
+    width: 340px;
+    padding-left: 200px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 main > section {
     display: flex;
-    flex-direction: row;    
+    flex-direction: column;    
     justify-content: center;
     align-items: center;
     margin-bottom: auto;
     margin: auto;
+    background-color: rgb(208, 226, 235);
+    width: 400px;
+    height: 500px;
+    box-shadow: -1px 1px 20px rgb(125, 127, 128) ;
+    /* border: 1px solid red; */
+    
+    
+}
+.filho4{
 }
 
 main > section >img{
-    margin-left: 50px;
+    margin-top: 10px;
     max-width: 80%;
     border-radius: 50%;
     height: 200px;
-    border: 1px solid red;
-    margin: 10px;
-    padding: 50px;
+    margin: 20px;
+    padding: 10px;
     
 }
-main > section > p {
-    color: white;
+main > .sec1{
+    padding-left: 50%;
+}
+main > .sec1 > p {
+    color: rgb(90, 73, 73);
     text-align: justify;
-    background-color: rgb(194, 173, 58);
+    background-color: white;
     padding: 15px;
     width: 400px;
     border-radius: 10px;   
