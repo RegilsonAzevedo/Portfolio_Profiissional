@@ -121,9 +121,11 @@ main > .sec1{
 }
 main > .sec1 > p {
     color: rgb(90, 73, 73);
-    text-align: justify;
+    text-align: center;
+    align-items: center;
     background-color: white;
-    padding: 15px;
+
     width: 400px;
-    border-radius: 10px;   
+    height: 200px;
+       
 }
