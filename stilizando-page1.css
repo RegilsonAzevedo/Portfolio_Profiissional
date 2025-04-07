@@ -75,89 +75,42 @@ nav >a :hover{
 }
 
 main{ 
-    max-width: 300%;
-    margin: 0px;
+    max-width: 100%;
+    margin: 10pxpx;
     background-color: rgb(147, 172, 187);
-    height: 600px;
-    width: 340px;
-    padding-left: 200px;
-    padding-top: 300px;
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 200px;
     padding-bottom: 100px;
     padding-right: 0px;
     display: flex;
+    flex-direction: column;   
+}
+section {
+    display:block;
     flex-direction: column;
-    
 }
-.container_pai{
-    width: 850px;
-    height: 500px;
-    /* border: 1px solid red; */
-    justify-content:space-around;
-    align-items: center;
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(54, 54, 56);
     
     
 }
 
-.container_f1 {
-    display: flex;
-    flex-direction:column;    
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(208, 226, 235);
-    width: 400px;
-    height: 500px;
-    box-shadow: -1px 1px 20px rgb(125, 127, 128) ;    
+.curriculo {
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    ;
 }
-
-img{
-    margin-top: 0px;
-    max-width: 70%;
-    border-radius: 50%;
-    height: 200px;
-    margin: 10px;
-    padding-top: 30px;
- 
-
-}
-div > .filho4{
-    font-weight: bold;    
-    color: rgb(8, 8, 8);
-    font-family:sans-serif;
-}
-div > .filho5{
-    color: rgb(54, 50, 59);
-    font-family:sans-serif;
-    font-weight: normal;
-    font-size: medium;
-    word-spacing: 8px;
-    padding:auto
-}
-/* div > .container_img {
-    width: 400px;
-    height: 60px;
-    background-color: white;
-    padding: auto;
-    flex-direction:row;
-    justify-content: space-between;
-    object-fit:fill;
-} */
-/* img > .img1 {
-    background-color: white;
-    width: 15px;
-    height: 15px;
-    padding: 0;
-    
-} */
-.container_f2{
-    display: flex;
-    flex-direction:column;    
-    justify-content: center;
-    align-items:center;
-    margin:0px;
-    background-color: rgb(208, 226, 235);
-    width: 400px;
-    height: 500px;
-    display:flex
+img {
+    width: 700px;
+    height: 900px;
+    margin: auto;
+    text-align: center;
 }
 
 footer{

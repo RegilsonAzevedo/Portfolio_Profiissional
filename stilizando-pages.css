@@ -90,17 +90,23 @@ main{
 section {
     
 }
-section> div > h1 {
+h1 {
     text-align: center;
     font-weight: bold;
+    color: white;
+    
 }
 
-section > img {
+img {
     width: 700px;
     height: 900px;
     margin: auto;
     
     
+    text-decoration: none;
+}
+main > a {
+    text-decoration: none;
 }
 
 footer{
