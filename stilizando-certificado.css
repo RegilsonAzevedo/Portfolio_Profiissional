@@ -20,6 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-image: linear-gradient(to bottom,var(--cor-header-final),var(--cor-header-inicial));
+    padding: 15px;
     padding-bottom: 15px;
     height:100px;
     width: 100%;
