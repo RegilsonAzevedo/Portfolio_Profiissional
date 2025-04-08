@@ -88,49 +88,62 @@ main{
     flex-direction: column;
     
 }
-.container_pai{
+
+
+.container {
     width: 850px;
-    height: 500px;
-    /* border: 1px solid red; */
-    justify-content:space-around;
-    align-items: center;
-    
-    
-}
-
-.container_f1 {
+    height: 560px;
     display: flex;
-    flex-direction:column;    
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(208, 226, 235);
+    font-family: Arial, sans-serif;
+    padding-left: 25px;
+}
+
+.esquerda, .direita {
     width: 400px;
-    height: 500px;
-    box-shadow: -1px 1px 20px rgb(125, 127, 128) ;    
+    height: 560px;
+    display: flex;
+    justify-content: center; /* centraliza texto na horizontal */
+    align-items: center;     /* centraliza texto na vertical */
+    font-size: 24px;
+    color: white;
 }
 
+.esquerda {
+    background-color: rgb(208, 226, 235);
+    width: 380px;
+    height: 560px;
+    box-shadow: -10px 10px 10px rgba(49, 48, 48, 0.1);
+    flex-direction: column;
+}
 img{
-    margin-top: 0px;
-    max-width: 70%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     border-radius: 50%;
-    height: 200px;
-    margin: 10px;
-    padding-top: 30px;
- 
+    
 
 }
-div > .filho4{
+.filho4{
     font-weight: bold;    
     color: rgb(8, 8, 8);
-    font-family:sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
 }
-div > .filho5{
-    color: rgb(54, 50, 59);
-    font-family:sans-serif;
+.linha-abaixo {
+    width: 6cm;              /* aqui está o "risco" com 3 centímetros */
+    height: 3px;             /* espessura da linha */
+    border-radius:50px;
+    margin-bottom:50px;
+    background-color: rgb(19, 33, 155); /* cor da linha */
+    margin: 10px auto 0 auto; /* centraliza e dá espaço acima */
+}
+.filho5{
+    color: rgb(100, 100, 100);
+    font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    font-size: medium;
+    font-size: 20px;
     word-spacing: 8px;
-    padding:auto
+    padding-top: 20px;
 }
 /* div > .container_img {
     width: 400px;
@@ -140,35 +153,56 @@ div > .filho5{
     flex-direction:row;
     justify-content: space-between;
     object-fit:fill;
-} */
-/* img > .img1 {
+}
+img > .img1 {
     background-color: white;
     width: 15px;
     height: 15px;
     padding: 0;
     
 } */
-.container_f2{
+
+.direita {
+    color: black;
     display: flex;
     flex-direction:column;    
-    justify-content: center;
-    align-items:center;
-    margin:0px;
-    background-color: rgb(208, 226, 235);
+    padding-left: 25px;
+    background-color: rgb(255, 255, 255);
     width: 400px;
-    height: 500px;
-    display:flex
+    height: 560px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-start; /* garante que os elementos comecem do topo */
+    
 }
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 40px;      /* opcional: remove espaço extra acima */
+    padding-left: 10px; /* opcional: dá um respiro da borda esquerda */
+    padding-right: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+.paragrafo1  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 325x;
+    color: rgb(70, 68, 68);
+    
+}
+
 
 footer{
     background-color: rgb(244, 247, 245);
     position:absolute;
     margin: auto;
     width: 100%;
-    height: 100px;
+    height: 0px;
     padding-left: 40px;
-    padding-top: 13px;
-    padding-bottom: 35px;
     display:block;
     font-family:sans-serif;
     font-weight: normal;

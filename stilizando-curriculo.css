@@ -1,0 +1,135 @@
+:root{
+    --cor-header-inicial: white;
+    --cor-header-final:white;
+    --cor-fundo-body: white;
+    --cor-fundo-footer:rgb(76, 122, 95);
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--cor-fundo-body);
+    font-family:Arial, Helvetica, sans-serif;     
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom,var(--cor-header-final),var(--cor-header-inicial));
+    padding: 15px;
+    padding-bottom: 15px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.pai {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+}
+.filho1 {
+    font-weight: bold;
+    color: rgb(125, 125, 126);
+    background-color: rgb(125, 125, 126);
+    font-size: xx-small;
+    margin: auto;
+    
+    
+}
+.filho2{
+    font-weight: bold;    
+    color: rgb(8, 8, 8);
+    font-family:sans-serif;
+}
+.filho3{
+    color:  rgb(87, 94, 94);
+    font-weight: normal;
+    font-size:medium;
+    margin: auto;
+}
+nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    padding-right: 50px;
+    font-weight: normal;
+    
+}
+
+nav > a {
+    text-decoration:none;
+    color: #0a0a0a;
+    margin-right: 20px;
+    text-align:end;
+    font-size: small;
+}
+
+nav >a :hover{
+    transition: all;
+    
+}
+
+main{ 
+    margin: 0px;
+    background-color: rgb(147, 172, 187);
+    height:100%;
+    width: 103%;
+    padding-left: 0px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(54, 54, 56);
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 10px;
+    
+    
+}
+
+img {
+    width: 700px;
+    height: 900px;
+    margin: auto;
+    
+}
+
+footer{
+    background-color: rgb(244, 247, 245);
+    position:absolute;
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    padding-left: 40px;
+    display:block;
+    font-family:sans-serif;
+    font-weight: normal;
+}
+
+.curriculo {
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding-left: 1200px;
+    padding-top: auto;
+    font-weight: bold;
+    background-color: rgb(244, 247, 245);
+    margin: 10px solid red;
+}
