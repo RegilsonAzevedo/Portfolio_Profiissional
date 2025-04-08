@@ -103,6 +103,20 @@ main > a {
     
 }
 
+section{
+    text-align: center;
+}
+div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    padding-top: 100px;
+}
 footer{
     background-color: rgb(244, 247, 245);
     position:absolute;

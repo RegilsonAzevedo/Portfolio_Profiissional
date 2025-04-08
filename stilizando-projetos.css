@@ -22,7 +22,6 @@ header{
     padding-bottom: 15px;
     height: 100px;
     width: 100%;
-    margin: 1px solid red;
     position: fixed;
 }
 .pai {
@@ -102,7 +101,19 @@ main > a {
     text-decoration: none;
     
 }
-
+section {
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+a > img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding-top: 0px;
+}
 footer{
     background-color: rgb(244, 247, 245);
     position:absolute;
