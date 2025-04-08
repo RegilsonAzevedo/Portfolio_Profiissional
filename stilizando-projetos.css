@@ -23,6 +23,7 @@ header{
     height: 100px;
     width: 100%;
     position: fixed;
+    top:0;
 }
 .pai {
     align-items: flex-start;

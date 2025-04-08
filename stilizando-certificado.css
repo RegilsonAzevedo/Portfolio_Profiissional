@@ -5,6 +5,8 @@
     --cor-fundo-footer:rgb(76, 122, 95);
     
 }
+
+
 body{
     padding: 0;
     margin: 0;
@@ -18,12 +20,11 @@ header{
     align-items: center;
     justify-content: space-between;
     background-image: linear-gradient(to bottom,var(--cor-header-final),var(--cor-header-inicial));
-    padding: 15px;
     padding-bottom: 15px;
-    height: 100px;
+    height:100px;
     width: 100%;
-    margin: 1px solid red;
     position: fixed;
+    top:0;
 }
 .pai {
     align-items: flex-start;
